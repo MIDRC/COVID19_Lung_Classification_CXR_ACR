@@ -2,7 +2,7 @@
 
 **Development Team**: Laura Brink, Kendall Schmidt
 
-Problem Definition:
+Problem Definition: Classify Chest X-rays as either COVID positive or negative.
 
 **Modality**: X-ray
 
