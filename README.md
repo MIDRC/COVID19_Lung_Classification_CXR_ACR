@@ -1,14 +1,12 @@
-# A Template Model 
+# MIDRC CRP 5 COVID19 Lung Classfication CXR ACR
 
-**MIDRC TDP or CRP number and title** (with link to corresponding midrc.org page)
+**Development Team**: Laura Brink, Kendall Schmidt
 
-**Development Team**: names (and emails if desired) of individuals associated with the project
+Problem Definition:
 
-Problem Definition:....
+**Modality**: X-ray
 
-**Modality**: CT, X-ray, Clinical Data
-
-**Requirements**: (e.g., Python, Tensorflow Keras API, OpenCV, Numpy)
+**Requirements**: See Dockerfile
 
 An image summarizes the proposed algorithm 
 ![](out.png)
@@ -22,4 +20,4 @@ References
 ---
 1)  For information on MIDRC GitHub documentation and best practices, please see https://midrc.atlassian.net/wiki/spaces/COMMITTEES/pages/672497665/MIDRC+GitHub+Best+Practices
 2)	U-Net: Convolutional Networks for Biomedical Image Segmentation https://lmb.informatik.uni-freiburg.de/people/ronneber/u-net/
-3)  Laboratory and University Name that develops the algorithm.
+3)  Group that developed the algorithm: https://www.acrdsi.org/
