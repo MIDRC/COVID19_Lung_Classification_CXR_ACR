@@ -11,14 +11,14 @@ Problem Definition:
 We began with a torchvision resnet50 algorithm and trained on the labeled CXR MIDRC data. The code shows how to run inference using our new model. We package our model according to AI-LAB's model standards. 
 
 **Repo Content Description**: 
-Dockerfile: includes all package requirements as well as specifies entrypoints.
-inference.py: main; use environment variables to specify the weights file, gpu index. 
-data_preparation.py: called by inference.py
+- Dockerfile: includes all package requirements as well as specifies entrypoints.
+- inference.py: main; use environment variables to specify the weights file, gpu index. 
+- data_preparation.py: called by inference.py
 
 **Example Commands**: 
-docker build -t <imagename> <pathtoDockerfile>
-docker run <imagename>
-Use environment variables to specify the weights file and gpu.
+- docker build -t {imagename} {pathtoDockerfile}
+- docker run {imagename}
+- Use environment variables to specify the weights file and gpu.
 
 References
 ---
