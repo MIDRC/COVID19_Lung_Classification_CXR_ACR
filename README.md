@@ -8,16 +8,20 @@ Problem Definition:
 
 **Requirements**: See Dockerfile
 
-An image summarizes the proposed algorithm 
-![](out.png)
+We began with a torchvision resnet50 algorithm and trained on the labeled CXR MIDRC data. The code shows how to run inference using our new model. We package our model according to AI-LAB's model standards. 
 
-**Repo Content Description**: A description of the types of files, code, and/or data included in the repo, as well as instructions on how to operate or utilize the files as appropriate.
+**Repo Content Description**: 
+Dockerfile: includes all package requirements as well as specifies entrypoints.
+inference.py: main; use environment variables to specify the weights file, gpu index. 
+data_preparation.py: called by inference.py
 
-**Example Commands**: Please provide example scripts to run the algorithm, either as a script here or as a link to a Jupyter notebook that demonstrates how to use the code. 
-
+**Example Commands**: 
+docker build -t <imagename> <pathtoDockerfile>
+docker run <imagename>
+Use environment variables to specify the weights file and gpu.
 
 References
 ---
 1)  For information on MIDRC GitHub documentation and best practices, please see https://midrc.atlassian.net/wiki/spaces/COMMITTEES/pages/672497665/MIDRC+GitHub+Best+Practices
-2)	U-Net: Convolutional Networks for Biomedical Image Segmentation https://lmb.informatik.uni-freiburg.de/people/ronneber/u-net/
+2)	AI-LAB's Docker standards: https://github.com/ACRCode/AILAB_documentation
 3)  Group that developed the algorithm: https://www.acrdsi.org/
