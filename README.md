@@ -19,6 +19,7 @@ We began with a torchvision resnet50 algorithm and trained on the labeled CXR MI
 - docker build -t {imagename} {pathtoDockerfile}
 - docker run {imagename}
 - Use environment variables to specify the weights file and gpu.
+- Use docker volumes to mount the input data and retrieve the results.
 
 References
 ---
