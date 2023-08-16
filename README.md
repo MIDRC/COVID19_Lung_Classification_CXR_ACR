@@ -26,3 +26,4 @@ References
 1)  For information on MIDRC GitHub documentation and best practices, please see https://midrc.atlassian.net/wiki/spaces/COMMITTEES/pages/672497665/MIDRC+GitHub+Best+Practices
 2)	AI-LAB's Docker standards: https://github.com/ACRCode/AILAB_documentation
 3)  Group that developed the algorithm: https://www.acrdsi.org/
+4)  The model weights can be found at https://huggingface.co/lbrink/COVID19_Lung_Classification_CXR_ACR/tree/main
